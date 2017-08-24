@@ -1,0 +1,124 @@
+body{
+background-image: url(./../assets/images/restaurant.jpg.png);
+background-repeat: repeat;
+display: block;
+width:960px;
+height:1500px;
+margin: auto;
+}
+
+
+.midsection{
+	margin-top: 20px;
+
+}
+
+header{
+	height:100px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	border-bottom: 3px solid #cccccc;
+	
+}
+
+h1{
+	position: absolute;
+	left:0px;
+	bottom:0;
+	background-color:#4aaaa5;
+	padding-right: 10px;
+	font-size: 35px;
+	font-weight: bold;
+	padding:20px;
+	text-align: center;
+	
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav{
+	position:absolute; 
+	right:0;
+	bottom:0;
+	padding-bottom: 15px;
+	padding-right: 30px;
+}
+
+section{
+	width:630px;
+	float:left; 
+	margin:5px;
+	border:1px solid #888080;
+	padding:10px;
+
+
+
+}
+.imagefloating{
+	float:left;
+	z-index: 1
+}
+
+
+#h2midsection{
+padding-bottom: 15px;
+padding-left: 15px;
+border-bottom: 3px solid #888080;
+font-size: 25px;
+font-weight: bold;
+}
+
+#h2aside{
+padding-bottom: 5px;
+padding-right: 15px;
+border-bottom: 1.5px solid #888080;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+}
+
+#biodiv{
+	padding:15px;
+}
+
+.linkimage{
+padding: 10px;
+padding-right: 20px;
+
+}
+
+.wrapword{
+	float:right;
+	margin: 2px;
+	color:#777777;
+	z-index: 2;
+}
+
+aside{
+	width: 250px;
+	height: 120px;
+	float: left;
+	padding:10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: yellow;
+	border: 1px solid #888080;
+	
+
+}
+
+footer{
+	text-align: center;
+	padding:25px;
+	clear: both;
+	border-top: 5px solid  #dddddd;
+	background-color: #666666;
+	color: #777777;
+	margin-top: 20px;
+}
