@@ -3,44 +3,45 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contact form</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-<div><!--div for top portion-->
 <header>
-<div><!--div for header-->
 	<h1>Abhijit Ghosh</h1>
-	</div>
-	<div><!--div for nav-->
 		<nav>
-			<a href="index.html">About</a>|
-			<a href="contact.html">Contact</a>|
-			<a href="portfolio.html">Portfolio</a>
+			<a href="index.html">About</a> |
+			<a href="portfolio.html">Portfolio</a> |
+			<a href="contact.html">Contact</a>
+			
 		</nav>
-	</div>
 	</header>
-</div>
-<div><!-- div for middle portion-->
+<div class="clearfix"><!-- div for middle portion-->
 	<section>
-	<header>
-		<h2>Contact</h2></header>
+		<h2 id="h2midsection">Contact</h2>
 		<form>
-			First name:<br>
-  			<input type="text" name="firstname"><br>				
-  			Email:<br>
- 			 <input type="text" name="Email"><br>
- 			 Message:<br>
- 			 <textarea rows="10" cols="30"></textarea><br>
+			Name:<br><br>
+  			<input type="text" name="firstname" class="inputclass" value="John smith"><br><br>			
+  			Email:<br><br>
+ 			 <input type="text" name="Email" class="inputclass" value="example@gmail.com"><br><br>
+ 			 Message:<br><br>
+ 			 <textarea rows="20" cols="30" class="inputclass"></textarea><br>
  			 <input type="submit" value="Submit">
 		</form>
 
 		
 	</section><!--div for contact form-->
-	<section><!--section for connect me-->
-	<h2>Connect with me</h2>
-	<img src="./assets/images/github.png" width="25" alt="Abhijit Github">
-	<img src="./assets/images/linkedin.png" width="25" alt="Abhijit linkedin">
-	<img src="./assets/images/stackoverflow.png" width="25" alt="Abhijit stackoverflow">
-</section>
+	<aside><!--section for connect me-->
+	<h2 id="h2aside">Connect with me</h2>
+	<div id="connectlinks">
+	<a href="https://github.com/abhijit2908">
+	<img src="./assets/images/github.png" width="50" alt="Abhijit's Github Link" class="linkimage"></a>
+	<a href="https://www.linkedin.com/in/abhijit-ghosh-pmp-60a56834/">
+	<img src="./assets/images/linkedin.png" width="50" alt="Abhijit Linkedin Link" class="linkimage"></a>
+	<a href="https://stackoverflow.com/users/8497661/abhijit2908">
+	<img src="./assets/images/stackoverflow.png" width="50" alt="Abhijit StackOverflow Link" class="linkimage"></a>
+	</div>
+</aside>
 		
 </div>
 <footer> ©copyright Abhijit Ghosh</footer>
